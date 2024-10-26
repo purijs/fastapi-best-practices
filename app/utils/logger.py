@@ -3,7 +3,8 @@ import sys
 
 class CustomFormatter(logging.Formatter):
     def format(self, record):
-        record.correlation_id = getattr(record, 'correlation_id', 'N/A')
+        if not hasattr(record, 'correlation_id'):
+            record.correlation_id = 'N/A'
         return super().format(record)
 
 logger = logging.getLogger("app")

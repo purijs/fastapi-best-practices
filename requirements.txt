@@ -1,9 +1,9 @@
 fastapi==0.103.1
 uvicorn[standard]==0.23.1
-pydantic==2.3.0
+pydantic>=2.7.0
 motor==3.1.1
 python-dotenv==1.0.0
-pydantic[email]
+email-validator
 pymongo==4.3.3
 pydantic-settings
 httpx

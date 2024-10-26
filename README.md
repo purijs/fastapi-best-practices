@@ -118,11 +118,10 @@ pip install -r requirements.txt
 1. Build and Run the Containers
 
 ```bash
-docker-compose up --build
+docker compose up --build
 ```
 
 2. Access the API
-- API Base URL: http://localhost:8000
 - Interactive API Docs: http://localhost:8000/docs
 - Redoc: http://localhost:8000/redoc
 

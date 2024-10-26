@@ -1,5 +1,13 @@
 # FastAPI User CRUD Application
 
+---
+
+<p align="center">
+  <img width="600" src="images/app.png" alt="FastAPI APp"/>
+</p>
+
+---
+
 This is a sample FastAPI application that connects to MongoDB and provides CRUD (Create, Read, Update, Delete) operations for user data. The application is designed with best practices in mind, incorporating:
 
 - Connection Pooling with MongoDB
